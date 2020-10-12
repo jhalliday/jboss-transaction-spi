@@ -77,6 +77,10 @@
   </distributionManagement>
 
   <properties>
+
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+
     <!-- The base directory for the maven release plugin to create the tag -->
     <tagBase>https://svn.jboss.org/repos/jbossas/projects/integration/tags/</tagBase>
     <narayana.spi.scm.url>https://github.com/jbosstm/jboss-transaction-spi</narayana.spi.scm.url>
